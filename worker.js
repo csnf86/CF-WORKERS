@@ -6,11 +6,11 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '63918e97-c93d-44b4-9d5d-af0093f64310';
 
-let proxyIP = 'proxyip.fxxk.dedyn.io';// 地址并不影响你的网速，cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org
+let proxyIP = 'sr8586.top';// 地址并不影响你的网速，cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org
 
-//let sub = '';// 留空则显示原版内容
-let sub = '';// 内置优选订阅生成器，
-let subconverter = 'api.v1.mk';// clash订阅转换后端，目前使用自己的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+//let sub = 'ub.kaiche.tk';// 留空则显示原版内容
+let sub = 'sub.kaiche.tk';// 内置优选订阅生成器，
+let subconverter = 'sub.xeton.dev';// clash订阅转换后端，目前使用自己的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/config/ACL4SSR_Mini_MultiMode.ini"; //订阅配置文件
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
